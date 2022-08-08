@@ -1,0 +1,49 @@
+.firstdiv
+{
+    width: 100%;
+    height: 104px;
+    background-color: rgb(53, 53, 173);;
+
+}
+body
+{
+    margin: 0%;
+}
+.logo {
+    width: 340px;
+    height: 68px;
+    float: left;
+    padding-left: 103px;
+    padding-top: 36px;
+  
+}
+.login {
+    width: 664.5px;
+    height: 104px;
+    float: left;
+    padding-top: 18px;
+    padding-left: 116px;
+}
+.facelogo
+{
+    font-size: 46px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.firsttr
+{
+    color: #fff;
+}
+.trdtr
+
+    {
+        color: white;
+        text-decoration: none;
+    }
+    #logbutt {
+        background-color: rgb(55, 55, 177);
+        border-color: black;
+    }
+   
+    
