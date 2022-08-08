@@ -18,11 +18,11 @@ body
   
 }
 .login {
-    width: 664.5px;
+    width: 482.5px;
     height: 104px;
     float: left;
     padding-top: 18px;
-    padding-left: 116px;
+    padding-left: 452px;
 }
 .facelogo
 {
@@ -41,9 +41,31 @@ body
         color: white;
         text-decoration: none;
     }
-    #logbutt {
+    .logbutt {
         background-color: rgb(55, 55, 177);
         border-color: black;
+        color: #fff;
+        cursor: pointer;r
     }
-   
+    .but
+    {
+        padding-left: 20px;
+        
+    }
+    .em
+    {
+        padding-left: 21px;
+    }
+    .pass
+    {
+        padding-left: 20px;
+    }   
+    .for
+    {
+        padding-left: 21px;
+    }
+    .logbutt:hover
+    {
+       background-color: blue;
+    }
     
