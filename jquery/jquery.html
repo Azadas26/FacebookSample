@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="button" value="click me" id="click">
+    
+   <label for="">password</label>
+   <input type="text" id="fpwd">
+   <label for="" id="dis" style="display: none;">plese enter more than 4 letters</label>
+   <label for="">re-password</label>
+   <input type="text" id="">
+
+  <div style="width: 150px; height: 150px; background-color: aquamarine; margin-top: 200px; margin-left: 100px; display: none;" id="box">
+
+    <h2 style="padding-left: 30px; padding-top: 10px;">hi hello</h2>
+
+  </div>
+
+
+
+
+
+
+
+   <script>
+  $(document).ready(function()
+  {
+    if( $("#click").click(function()
+     {
+       // alert("Button clicked")
+       $("#box").
+      
+
+     }))
+
+     $("#click").mouseenter(function()
+     {
+        $(this).css({"background":"red"})
+     })
+     $("#click").mouseleave(function()
+     {
+        $(this).css({"background":"blue"})
+     })
+
+     $("#fpwd").blur(function()
+     {
+        var a=$(this).val()
+        if(a.length<4)
+        {
+           // alert("pls enter more than 4 letters")
+           $("#dis").show()
+        }
+        else
+        {
+            $("#dis").hide()
+        }
+     })
+  })
+
+
+   </script>
+
+   
+</body>
+</html>
